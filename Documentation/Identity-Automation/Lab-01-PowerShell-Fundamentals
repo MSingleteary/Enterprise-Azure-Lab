@@ -1,0 +1,44 @@
+# Lab 1.1 – PowerShell Fundamentals for Identity Automation
+
+## Objective
+
+Learn the foundational concepts of PowerShell and understand how automation supports Identity and Access Management (IAM) operations. The focus of this lab was understanding PowerShell's Verb-Noun command structure, learning how to interpret common cmdlets, and connecting automation to real-world business processes.
+
+---
+
+## Business Scenario
+
+An Identity and Access Management (IAM) team receives recurring requests from Human Resources to provision new employee accounts, assign department access, and generate user reports. Performing these tasks manually is time-consuming and increases the risk of configuration errors.
+
+The objective of this lab was to begin understanding how PowerShell can automate repetitive administrative tasks, improve consistency, and reduce operational effort.
+
+---
+
+## Concepts Learned
+
+### PowerShell Verb-Noun Structure
+
+Understanding how PowerShell commands are organized:
+
+- Get-Service
+- Start-Service
+- Restart-Service
+- Get-Process
+- Stop-Process
+- Get-ADUser
+- New-Item
+- Remove-Item
+- Test-Connection
+
+This naming convention makes PowerShell easier to learn because command intent is often recognizable without memorizing every cmdlet.
+
+---
+
+## PowerShell Commands Practiced
+
+```powershell
+Get-Date
+Get-Location
+Get-Command
+Get-Help Get-Process
+Get-Process
