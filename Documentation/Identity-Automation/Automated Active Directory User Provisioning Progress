@@ -1,0 +1,54 @@
+Overview
+
+Continued development of an enterprise-style PowerShell onboarding automation project that simulates how Identity & Access Management teams provision new employees into Active Directory.
+
+Features Completed:
+-Imported employee onboarding data from a CSV file.
+-Validated the CSV file exists before processing.
+-Verified employee records were successfully imported.
+-Counted employee records.
+-Displayed employee information for administrative verification.
+-Built a PowerShell hashtable to map departments to Organizational Units.
+-Dynamically determined the correct OU for each employee based on department.
+
+Engineering Concepts Learned:
+-PowerShell object manipulation
+-CSV data processing
+-Input validation
+-Hashtable lookups
+-Variable management
+-Active Directory OU mapping
+-Defensive programming principles
+
+Current Workflow:
+Start
+    ↓
+Import Active Directory Module
+    ↓
+Validate CSV Exists
+    ↓
+Import CSV
+    ↓
+Validate Employee Records
+    ↓
+Validate Required Columns
+    ↓
+Count Employee Records
+    ↓
+Display Employee Information
+    ↓
+Determine Employee Department
+    ↓
+Map Department to Correct Organizational Unit
+    ↓
+Next: Verify OU Exists
+
+Planned Enhancements:
+-Validate Organizational Unit exists before provisioning.
+-Detect duplicate user accounts.
+-Create Active Directory users.
+-Populate user attributes.
+-Assign department-based security groups.
+-Generate provisioning logs and reports.
+-Improve error handling and scalability.
+
